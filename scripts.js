@@ -3,7 +3,7 @@ const sliders = document.querySelectorAll('.slide-in')
 
 
 const appearOptions={
-    rootMargin:"-250px",
+    rootMargin:"-200px",
     threshold:0
 };
 
