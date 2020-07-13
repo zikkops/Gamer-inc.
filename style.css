@@ -19,6 +19,23 @@ body{
 html{
     scroll-behavior: smooth;
 }
+.fade-in{
+    opacity: 0;
+    transition: all 250ms ease-in;
+}.appear{
+    opacity: 1;
+}
+.left{
+    transform: translateX(-100px);
+    transition: all 400ms ease-in;
+}
+.right{
+    transform: translateX(100px);
+}
+.right.appear,
+.left.appear{
+    transform: translate(0);
+}
 
 /* navigation bar */
 nav{
@@ -296,7 +313,7 @@ margin-right: 20px;
 #pc{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var(--dark-color-);
+    background-color: var(--light-color-);
 }
 #pc img{
     width: 60vw;
