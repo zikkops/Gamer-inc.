@@ -46,8 +46,11 @@ nav{
     z-index: 4;
 }
 .home-logo{
-    width: 100px;
-    height: 50px;
+    width: 140px;
+    height: 70px;
+}
+.logo{
+    margin-top: -20px;
 }
 
 nav ul{
@@ -57,15 +60,11 @@ nav ul{
     padding-top: 25px;
     position: relative;
 }
-nav li:nth-child(1){
-    overflow: visible;
-    height: 28px;
-    margin-top: -15px;
-}
 nav li{
     float:left;
     position: relative;
     overflow: hidden;
+    margin-left: 20px;
     
 }
 nav a{
@@ -138,7 +137,7 @@ nav a{
     position: relative;
     width: 110%;
     height: 5px;
-    background-color:grey;
+    background-color:white;
     overflow-x: hidden;
 }
 /* home page */
@@ -175,7 +174,7 @@ height: 100vh;
 
 #pointer-down {
     position: absolute;
-    bottom: 20px;
+    bottom: 20%;
   
     animation: bounce 2s infinite 2s;
   }
@@ -265,13 +264,13 @@ height: 100vh;
 #games{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var(--dark-color-);
+    background-color: white;
 }
 .games-text .text-container a{
     display: inline-block;
     text-decoration: none;
     color: black;
-    background-color: white;
+    background-color: var(--light-color-);
     margin-top: 20px;
     padding: 10px 10px;
     transition: all 0.5s ease-in-out;
@@ -297,11 +296,11 @@ padding: 3px;
 margin-right: 20px;
 }
 #games h2{
-    color: white;
+    color: black;
 }
 #games li{
     display: flex;
-    color: white;
+    color: black;
     list-style: none;
     align-items: center;
 }
@@ -367,7 +366,7 @@ margin-right: 20px;
 #form-section{
 
     background-color: var(--dark-color-);
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 #form{
     padding-top: 30px;
@@ -377,7 +376,7 @@ margin-right: 20px;
 
 }
 #form-section h1{
-    padding-top: 20px;
+    padding-top: 70px;
     text-align: center;
     color: white;
 }
@@ -390,7 +389,7 @@ margin-right: 20px;
 }
 .left-form{
     padding-right: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 .content-name {
     color: black;
@@ -477,16 +476,17 @@ margin-right: 20px;
 #submit-btn {
     position:absolute;
     bottom: 0;
+    right: 15.2%;
     text-align: center;
-    width: 100px;
-    height: 30px;
+    /* width: 100px;
+    height: 30px; */
     background-color: white;
     color: black;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
-    padding: 2px 0;
-    margin-top: 20px;
+    padding: 10px 15px;
+    margin-top: 60px;
     margin-right: 40px;
     cursor: pointer;
     border: none;
